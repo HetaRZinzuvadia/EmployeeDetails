@@ -1,0 +1,16 @@
+.list {
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+}
+
+.list td, .list th {
+  border: 1px solid #ddd;
+}
+
+.list tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.list tr:hover {
+  background-color: #ddd;
+}
